@@ -1,0 +1,5 @@
+#!/bin/bash
+
+disk_usage=$( df -h | grep "/dev/mapper/centos-root" | awk {"print"} )
+
+echo $disk_usage
