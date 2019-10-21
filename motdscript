@@ -1,0 +1,7 @@
+#!/bin/bash
+
+MSGS=("Never surrender" "Face your fears" "Welocme to AcmeCorp" "Only those who will risk going too far can possible find out how far one can go")
+
+MSG=${MSGS[$RANDOM % ${#MSGS[@]} ]}
+
+echo $MSG;
