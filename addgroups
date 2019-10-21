@@ -1,0 +1,8 @@
+#!/bin/bash
+
+Echo "Name of new group to create"
+
+Read groupname
+Sudo groupadd $groupname
+Echo "Group $groupname has been added"
+Sudo mkdir /home/$groupname
