@@ -1,0 +1,3 @@
+#!/bin/
+
+sh yum remove gnome-{clocks,weather,screenshot,video-effects,contacts,dictionary,documents,font-viewer} \ cheese eog empathy evince{,-nautilus} totem{,-mozplugin,-nautilus} \ `rpm -qa|grep -i libreoffice` yum autoremove
